@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
   {% seo %}
-  {% if jekyll.environment == 'production' %}
+  {% if jekyll.environment == 'development' %}
   {% include analytics.html %}
   {% endif %}
 </head>
